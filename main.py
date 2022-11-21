@@ -27,8 +27,10 @@ london_co = {
 
 while 1:
     a = input('Введите имя устройства: ')
+    b = input('Введите имя параметра: ')
     try:
-        print(london_co[a])
+        print(london_co[a][b])
         break
     except:
         print("Ошибка. Повторите ввод")
+
